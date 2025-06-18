@@ -55,3 +55,4 @@ const weekDays = 5;
 //weekDays = 8; // the constant can't change
 
 console.log(weekDays);
+
