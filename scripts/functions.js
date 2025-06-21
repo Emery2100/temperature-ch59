@@ -67,8 +67,8 @@ doubleNumber(14);
     combineNames("david");
 
     function convertToSeconds(){
-        let min=prompt("Eneter minutes: ");
-        document.getElementById("results").innerHTML += `<p> The conversion is: ${min *60} </p>`;
+        let min=prompt("Enter minutes: ");
+        document.getElementById("results").innerHTML += `<p> The conversion is: ${min *60} </p>`;                
 
     }
 
