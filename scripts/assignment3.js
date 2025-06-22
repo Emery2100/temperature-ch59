@@ -6,10 +6,10 @@
             let convertedTemp;
             let resultText;
 
-            if (scale === "C") {
+            if (scale == "C") {
                 convertedTemp = (temp * 9/5) + 32;
                 resultText = `${temp} Celsius is equal to ${convertedTemp.toFixed(2)} Fahrenheit.`;
-            } else if (scale === "F") {
+            } else if (scale == "F") {
                 convertedTemp = (temp - 32) * 5/9;
                 resultText = `${temp} Fahrenheit is equal to ${convertedTemp.toFixed(2)} Celsius.`;
             }
