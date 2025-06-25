@@ -1,0 +1,25 @@
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+
+    .thermometer {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .cold {
+      color: blue;
+    }
+
+    .hot {
+      color: red;
+    }
+
+    .medium {
+      color: orange;
+    }
+
+    .result {
+      margin-top: 20px;
+    }

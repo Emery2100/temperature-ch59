@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="final.css">
+
+ </head>
+<body>
+<Main>
+<h2>Temperature Converter</h2>
+
+<label for="startTemp">Start Temperature:</label>
+<input type="number" id="startTemp"><br><br>
+
+<label for="endTemp">End Temperature:</label>
+<input type="number" id="endTemp"><br><br>
+
+<label for="scale">Scale (C or F):</label>
+<input type="text" id="scale"><br><br>
+
+<button onclick="convertTemperatureRange()">Convert</button>
+
+<div class="result" id="output"></div>
+
+<script src="scripts/final.js"></script>
+
+</Main>
+</body>
